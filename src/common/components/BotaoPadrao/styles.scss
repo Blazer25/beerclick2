@@ -1,0 +1,21 @@
+.botaoPadrao {
+  background-color: #fdcf00;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: unset;
+  }
+}

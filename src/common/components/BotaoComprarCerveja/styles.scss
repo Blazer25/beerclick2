@@ -1,0 +1,71 @@
+.bloqueado {
+  filter: grayscale(100%);
+  color: #a7a7a7 !important;
+  pointer-events: none;
+}
+
+.tamanho-icone {
+  max-width: 6rem;
+}
+
+.fundo-span {
+  background-color: #413102;
+  border-radius: 15px;
+  padding: 4px;
+}
+
+.fonte-cervejas {
+  font-size: 1.2rem;
+}
+
+.ipa {
+  color: #ffbc04;
+}
+
+.pilsen {
+  color: #ffe600;
+}
+
+.weiss {
+  color: #ffd900ef;
+}
+
+.stout {
+  color: #000000;
+}
+
+.sour {
+  color: #ff82bc;
+}
+
+.apa {
+  color: #ff9100;
+}
+
+.bock {
+  color: #270404;
+}
+
+.porter {
+  color: #140101;
+}
+
+.witbier {
+  color: #deff23;
+}
+
+.lambic {
+  color: #ffffff;
+}
+
+.transicao-padrao {
+  transition: 0.4s;
+}
+
+.fundo-padrao {
+  background-color: #ffffaa;
+}
+
+.fundo-padrao:hover {
+  background-color: #e9e984;
+}

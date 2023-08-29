@@ -1,0 +1,7 @@
+.square {
+  max-width: 3rem;
+  position: absolute;
+  transition: opacity 0.5s;
+  z-index: 99999999;
+  cursor: pointer;
+}
