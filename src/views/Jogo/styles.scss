@@ -1,0 +1,29 @@
+.container {
+  flex-direction: row;
+  padding: 1rem;
+
+  .titulo-cervejas {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .tamanho-cervejas {
+    width: 45%;
+    overflow-x: hidden;
+    margin-top: 3rem;
+  }
+
+  .img-tamanho {
+    max-width: 16rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+
+    .tamanho-cervejas {
+      width: 100%;
+    }
+  }
+}
